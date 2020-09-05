@@ -1,10 +1,8 @@
 {
 	"version": "2",
 	"templates": [
-		{
-			"categories": [
-				"Portainer-CE"
-			],
+		
+
 			{
 				"type": 1,
 				"title": "Registry",
@@ -1067,7 +1065,8 @@
 			"note": "Deploys an insecure CockroachDB cluster, please refer to <a href=\"https://www.cockroachlabs.com/docs/stable/orchestrate-cockroachdb-with-docker-swarm.html\" target=\"_blank\">CockroachDB documentation</a> for production deployments.",
 			"stackfile": "https://raw.githubusercontent.com/portainer/templates/master/stacks/cockroachdb/edge/docker-stack.yml"
 		  },
-			"categories": [
+			{
+		 		"categories": [
 				"Music"
 			],
 			"description": "Airsonic is a free, web-based media streamer, providing ubiqutious access to your music. Use it to share your music with friends, or to listen to your own music while at work. You can stream to multiple players simultaneously, for instance to one player in your kitchen and another in your living room.",
